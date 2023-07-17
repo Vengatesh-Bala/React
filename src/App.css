@@ -1,38 +1,253 @@
-.App {
+.searchbox {
+  border-radius: 20px;
   text-align: center;
-}
+  margin-top: 20px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  .searchboxinput {
+    height: 80px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
   }
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.h3 {
+  color: #32475CDE;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+
+
+  padding-left: 30px;
+}
+
+.p2 {
+  padding-left: 40px;
+  color: #32475C99;
+  font-family: Public Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.15000000596046448px;
+  text-align: left;
+
+}
+
+.header-content {
+  justify-content: center;
+  height: 50px;
+  width: auto;
+}
+
+
+/* .header {
+    width: 132px;
+    height: 57px;
+    top: 84px;
+    left: 276px;
+    gap: 4px;
+  } */
+
+
+.btn {
+  margin-top: -6%;
+  padding-left: 1200px;
+  color: #2F3048;
+
+
+
+}
+
+/* .t1 {
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF),
+    linear-gradient(0deg, #DDDBDA, #DDDBDA);
+
+} */
+
+.card0 {
+  /* width: width 72px height 72px top 876px left 580px border-radius 6px */
+  width: Fixed 126px height Fixed (490px) top 163px left 282px border-radius 6px;
+  margin-top: 5%;
+}
+
+.card {
+  /* width: 126px;
+  height: 490px;  */
+  top: 163px;
+  left: 282px;
+  border-radius: 6px;
+  position: top;
+
+}
+
+.cardcontent {
+  background-color: rgb(255, 252, 252);
+  position: relative;
+  box-shadow: 20px 20px 50px rgb(0, 0, 0, 0.5);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-left: 5px;
+}
+
+.row-1 {
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.p1 {
+  margin-left: 20px;
+}
+
+.txt-1 {
+
+
+  justify-content: space-evenly;
+}
+
+.row-2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 2.5%;
+
+}
+
+.text-3 {
+  width: 222.4px;
+  height: 93.6px;
+  margin-right: 500px;
+
+
+}
+
+/* .accordion{
+  width: 25inch;
+} */
+
+.state {
+  width: 220px;
+  margin-top: -110%;
+}
+
+
+.row-3 {
+  padding: 10 px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.status {
+  background: linear-gradient(0deg, #DDDBDA, #DDDBDA),
+    linear-gradient(0deg, #EFEFEF, #EFEFEF);
+
+}
+
+.p32 {
+  background-color: rgb(214, 214, 214);
+}
+
+.textfield {
+  color: aqua;
+}
+
+.par1 {
+  margin-left: 20px;
+}
+
+.form {
+  margin-top: 10px;
+  margin-left: 200px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed #dde3e9;
+  border-radius: 10px;
+  height: 50px;
+  width: 500px;
+  cursor: pointer;
+  padding-right: 300px;
+}
+
+.form1 {
+  justify-items: center;
+  padding-left: 100px;
+}
+
+.btn-upload {
+  padding-left: 300px;
+  color: blue
+}
+
+/* .body{
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 1));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+} */
+
+
+.uploader-form {
+  margin-top: 20px;
+  margin-left: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed #207dda;
+  border-radius: 10px;
+  height: 60px;
+  width: 250px;
+  cursor: pointer;
+  padding-right: 300px;
+  background-color: rgb(255, 255, 255);
+
+
+    /* margin-top: 20px;
+  margin-left: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed #207dda;
+  border-radius: 10px;
+  height: 120px; /* Increase the height to accommodate the content 
+  width: 450px;
+  cursor: pointer;
+  padding: 20px; /* Add padding for spacing 
+  background-color: rgb(249, 243, 243); */
+
+    border: 1px solid #00000040
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* .upload-btn {
+  margin-top: 2000 px;
+  color: rgb(33, 28, 164);
+  margin-top: 20px; 
+  color: rgb(33, 28, 164);
+} */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* .uploader-form input[type="file"] {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+} */
+.input-file{
+ margin-left: 30%;
+ margin-top: 25%;
+}
+.svg-icon{
+  margin-top: -20%;
 }
